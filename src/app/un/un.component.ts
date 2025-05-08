@@ -1,9 +1,9 @@
-import { Component } from '@angular/core';
-import {LeafletModule} from '@bluehalo/ngx-leaflet';
+import {Component} from '@angular/core';
+import {RouterOutlet} from '@angular/router';
 
 @Component({
   selector: 'app-un',
-  imports: [LeafletModule],
+  imports: [RouterOutlet],
   templateUrl: './un.component.html',
   styleUrl: './un.component.css'
 })
